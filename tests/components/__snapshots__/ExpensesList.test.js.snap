@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test the snapshot of the expense filter 1`] = `
+<div>
+  <ExpenseListItem
+    amount={1293}
+    createdAt={0}
+    description="Internet"
+    id="1"
+    key="1"
+    note="Harness the power of the internet"
+  />
+  <ExpenseListItem
+    amount={293}
+    createdAt={-345600000}
+    description="Rent"
+    id="2"
+    key="2"
+    note="Settling your rent"
+  />
+  <ExpenseListItem
+    amount={123}
+    createdAt={345600000}
+    description="Light"
+    id="3"
+    key="3"
+    note="Electricity bill"
+  />
+</div>
+`;
+
+exports[`should test when the expense array is empty 1`] = `
+<div>
+  <h2>
+    No expenses found
+  </h2>
+</div>
+`;
